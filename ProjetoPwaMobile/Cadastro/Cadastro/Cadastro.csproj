@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\Endereco.cs" />
-    <Compile Include="Classes\PreferenciaCliente.cs" />
     <Compile Include="Exceptions\ExceptionCadastro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Regras\ManutencaoCadastro.cs" />

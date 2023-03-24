@@ -11,6 +11,6 @@ namespace Cadastro.Classes
         public int Cpf { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public PreferenciaCliente Preferencia { get; set; }
+        public Endereco Endereco { get; set; }
     }
 }
