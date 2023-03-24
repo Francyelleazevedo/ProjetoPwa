@@ -1,0 +1,6 @@
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\bin\Debug\Login.dll
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\bin\Debug\Login.pdb
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.csproj.AssemblyReference.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.dll
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.pdb

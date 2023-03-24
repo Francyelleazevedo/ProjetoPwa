@@ -1,0 +1,6 @@
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\Cadastro.dll
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.AssemblyReference.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.CoreCompileInputs.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.dll
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.pdb

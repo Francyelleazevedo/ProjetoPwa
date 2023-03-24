@@ -1,0 +1,11 @@
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\TesteLogin.exe.config
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\TesteLogin.exe
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\TesteLogin.pdb
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\Login.dll
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\Login.pdb
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.AssemblyReference.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.CoreCompileInputs.cache
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.CopyComplete
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.exe
+C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.pdb
