@@ -42,6 +42,10 @@ namespace Cadastro.Regras
                     throw new ExceptionCadastro("Campo nome maior do que o permitido!");
 
                 }
+                else if (int.TryParse(cliente.Nome, out int nome))
+                {
+                    throw new ExceptionCadastro("Nome não aceita números");
+                }
                 else if (string.IsNullOrEmpty(cliente.Sobrenome))
                 {
                     throw new ExceptionCadastro("Campo sobrenome é obrigatório!");
@@ -85,17 +89,21 @@ namespace Cadastro.Regras
                 }
                 else if (int.TryParse(endereco.Cidade, out int cidade))
                 {
-                    throw new ExceptionCadastro("Nome não aceita números");
+                    throw new ExceptionCadastro("Cidade não aceita números");
                 }
                 else if (string.IsNullOrEmpty(endereco.Logradouro))
                 {
-                    throw new ExceptionCadastro("Campo endereço não preenchido!");
+                    throw new ExceptionCadastro("Campo logradouro não preenchido!");
 
                 }
                 else if (endereco.Logradouro.Length > 60)
                 {
-                    throw new ExceptionCadastro("Campo endereço maior do que o permitido");
+                    throw new ExceptionCadastro("Campo logradouro maior do que o permitido");
 
+                }
+                else if (int.TryParse(endereco.Logradouro, out int logradouro))
+                {
+                    throw new ExceptionCadastro("Cidade não aceita números");
                 }
                 else if (endereco.Complemento.Length > 40)
                 {
