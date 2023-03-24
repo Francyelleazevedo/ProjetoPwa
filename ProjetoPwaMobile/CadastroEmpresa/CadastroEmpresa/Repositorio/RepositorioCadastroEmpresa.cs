@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesteCadastroEmpresa
+namespace CadastroEmpresa.Repositorio
 {
-    public class Program
+    internal class RepositorioCadastroEmpresa
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }

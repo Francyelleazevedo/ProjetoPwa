@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesteCadastroEmpresa
+namespace CadastroEmpresa.Exceptions
 {
-    public class Program
+    internal class ExceptionCadastroEmpresa
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
