@@ -19,6 +19,8 @@ namespace CadastroEmpresa.Regras
                 ValidarCnpj(Convert.ToString(empresa.Cnpj));
                 ValidarSenha(empresa.Senha);
 
+
+
                 return "Sucesso";
             }
             catch (Exception)

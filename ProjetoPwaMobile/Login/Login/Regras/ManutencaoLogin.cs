@@ -11,6 +11,7 @@ namespace Login.Regras
 {
     public class ManutencaoLogin
     {
+        Dao dao = null;
         public string Login(LoginUsuario usuario)
         {
             ValidarEmailouCnpj(usuario.EmailouCnpj);
@@ -63,5 +64,21 @@ namespace Login.Regras
             }
 
         }
+
+        //public List<> GetFamilia()
+        //{
+        //    try
+        //    {
+        //        List<FamiliaFrancyelle> list = new List<FamiliaFrancyelle>();
+        //        dao.Abrir();
+        //        list = repositorio.ListarHistoricoFamilia();
+        //        dao.Fechar();
+        //        return list;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        throw;
+        //    }
+        //}
     }
 }
