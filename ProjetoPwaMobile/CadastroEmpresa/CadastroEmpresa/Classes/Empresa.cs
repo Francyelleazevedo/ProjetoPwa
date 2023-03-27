@@ -14,6 +14,7 @@ namespace CadastroEmpresa.Classes
         public string HorarioFuncionamento { get; set; }
         public string DiasFuncionamento { get; set; }
         public int CapacidadeTotal { get; set; }
+        public string Senha { get; set; }
         public EnderecoEmpresa Endereco { get; set; } = new EnderecoEmpresa();
     }
 }

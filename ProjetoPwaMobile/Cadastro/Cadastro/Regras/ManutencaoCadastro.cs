@@ -17,6 +17,9 @@ namespace Cadastro.Regras
             {
                 ValidacaoDadosPessoais(cliente);
                 ValidacaoEndereco(cliente.Endereco);
+                ValidarEmail(cliente.Email);
+                ValidarSenha(cliente.Senha);
+
 
                 return "Sucesso";
 
@@ -138,6 +141,51 @@ namespace Cadastro.Regras
                 {
                     throw new ExceptionCadastro("Campo número não preenchido!");
                 }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void ValidarEmail(string email)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(email))
+                {
+                    throw new ExceptionCadastro("Digite um email válido!");
+                }
+                else if (email.Length > 80)
+                {
+                    throw new ExceptionCadastro("Limite de caracteres excedido!");
+                }
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
+
+        public void ValidarSenha(string senha)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(senha))
+                {
+                    throw new ExceptionCadastro("Campo senha obrigatório!");
+                }
+                else if (senha.Length < 8)
+                {
+                    throw new ExceptionCadastro("A senha deve ter no mínimo 8 dígitos, incluindo letras e números!");
+                }
+                else if (senha.Length > 20)
+                {
+                    throw new ExceptionCadastro("A senha deve ter no máximo 20 dígitos, , incluindo letras e números!");
+                }
+
             }
             catch (Exception)
             {
