@@ -9,3 +9,30 @@ C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debu
 C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.CopyComplete
 C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.exe
 C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\TesteLogin.exe.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\TesteLogin.exe
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\TesteLogin.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\Login.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\MySqlConnector.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Memory.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Buffers.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\Login.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\Login.dll.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\MySqlConnector.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Memory.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Buffers.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.AssemblyReference.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.exe.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.CoreCompileInputs.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.csproj.CopyComplete
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.exe
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\TesteLogin\obj\Debug\TesteLogin.pdb

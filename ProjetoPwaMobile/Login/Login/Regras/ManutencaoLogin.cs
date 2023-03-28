@@ -12,10 +12,12 @@ namespace Login.Regras
     public class ManutencaoLogin
     {
         Dao dao = null;
+        RepositorioLogin repositorio = null;
         public string Login(LoginUsuario usuario)
         {
             ValidarEmailouCnpj(usuario.EmailouCnpj);
             ValidarSenha(usuario.Senha);
+            GetLogin();
 
             return "Sucesso";
         }
@@ -65,20 +67,20 @@ namespace Login.Regras
 
         }
 
-        //public List<> GetFamilia()
-        //{
-        //    try
-        //    {
-        //        List<FamiliaFrancyelle> list = new List<FamiliaFrancyelle>();
-        //        dao.Abrir();
-        //        list = repositorio.ListarHistoricoFamilia();
-        //        dao.Fechar();
-        //        return list;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
+        public List<LoginUsuario> GetLogin()
+        {
+            try
+            {
+                List<LoginUsuario> list = new List<LoginUsuario>();
+                dao.Abrir();
+                list = repositorio.ObterLoginEmpresa();
+                dao.Fechar();
+                return list;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
