@@ -4,3 +4,28 @@ C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Log
 C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
 C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.dll
 C:\Users\Francyelle Azevedo\Documents\ProjetoPwaMobile\Login\Login\obj\Debug\Login.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\Login.dll.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\Login.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\Login.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\Dao.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\MySqlConnector.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Buffers.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Memory.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\Dao.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\Dao.dll.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\MySqlConnector.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Buffers.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Memory.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\obj\Debug\Login.csproj.AssemblyReference.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\obj\Debug\Login.csproj.CopyComplete
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\obj\Debug\Login.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Login\Login\obj\Debug\Login.pdb

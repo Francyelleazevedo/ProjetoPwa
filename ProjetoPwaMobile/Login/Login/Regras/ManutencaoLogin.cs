@@ -11,10 +11,13 @@ namespace Login.Regras
 {
     public class ManutencaoLogin
     {
+        Dao dao = null;
+        RepositorioLogin repositorio = null;
         public string Login(LoginUsuario usuario)
         {
             ValidarEmailouCnpj(usuario.EmailouCnpj);
             ValidarSenha(usuario.Senha);
+            GetLogin();
 
             return "Sucesso";
         }
@@ -62,6 +65,22 @@ namespace Login.Regras
                 throw;
             }
 
+        }
+
+        public List<LoginUsuario> GetLogin()
+        {
+            try
+            {
+                List<LoginUsuario> list = new List<LoginUsuario>();
+                dao.Abrir();
+                list = repositorio.ObterLoginEmpresa();
+                dao.Fechar();
+                return list;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

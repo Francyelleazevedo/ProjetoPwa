@@ -8,5 +8,6 @@ namespace CadastroEmpresa.Repositorio
 {
     internal class RepositorioCadastroEmpresa
     {
+
     }
 }
