@@ -1,0 +1,6 @@
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\CadastroEmpresa\bin\Debug\CadastroEmpresa.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\CadastroEmpresa\bin\Debug\CadastroEmpresa.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\CadastroEmpresa\obj\Debug\CadastroEmpresa.csproj.AssemblyReference.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\CadastroEmpresa\obj\Debug\CadastroEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\CadastroEmpresa\obj\Debug\CadastroEmpresa.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\CadastroEmpresa\obj\Debug\CadastroEmpresa.pdb

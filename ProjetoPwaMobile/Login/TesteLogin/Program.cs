@@ -15,7 +15,7 @@ namespace TesteLogin
             ManutencaoLogin manu = new ManutencaoLogin();
             LoginUsuario usuario = new LoginUsuario();
 
-            usuario.EmailouCnpj = "teste@gmail.com";
+            usuario.EmailouCnpj = "31599146000200";
             usuario.Senha = "teste123";
 
             manu.Login(usuario);

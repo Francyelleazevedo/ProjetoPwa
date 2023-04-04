@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CadastroEmpresa.Exceptions
 {
-    internal class ExceptionCadastroEmpresa
+    public class ExceptionCadastroEmpresa : Exception
     {
+        public ExceptionCadastroEmpresa(string mensagem) : base(mensagem)
+        { 
+
+        }
     }
 }

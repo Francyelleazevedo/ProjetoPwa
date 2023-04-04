@@ -1,0 +1,11 @@
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\TesteCadastro.exe.config
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\TesteCadastro.exe
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\TesteCadastro.pdb
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\Cadastro.dll
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\Cadastro.pdb
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.csproj.AssemblyReference.cache
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.csproj.SuggestedBindingRedirects.cache
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.csproj.CoreCompileInputs.cache
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.csproj.CopyComplete
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.exe
+C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.pdb

@@ -1,0 +1,11 @@
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\bin\Debug\TesteCadastroEmpresa.exe.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\bin\Debug\TesteCadastroEmpresa.exe
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\bin\Debug\TesteCadastroEmpresa.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\bin\Debug\CadastroEmpresa.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\bin\Debug\CadastroEmpresa.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\obj\Debug\TesteCadastroEmpresa.csproj.AssemblyReference.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\obj\Debug\TesteCadastroEmpresa.csproj.SuggestedBindingRedirects.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\obj\Debug\TesteCadastroEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\obj\Debug\TesteCadastroEmpresa.csproj.CopyComplete
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\obj\Debug\TesteCadastroEmpresa.exe
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\CadastroEmpresa\TesteCadastroEmpresa\obj\Debug\TesteCadastroEmpresa.pdb

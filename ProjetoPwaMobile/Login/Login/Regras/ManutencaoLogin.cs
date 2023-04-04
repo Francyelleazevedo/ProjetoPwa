@@ -11,12 +11,28 @@ namespace Login.Regras
 {
     public class ManutencaoLogin
     {
-        public string Login(LoginUsuario usuario)
+        Dao dao = null;
+        RepositorioLogin repositorio = null;
+
+        public ManutencaoLogin()
+        {
+            try
+            {
+                dao = new Dao();
+                repositorio = new RepositorioLogin(dao);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        public void Login(LoginUsuario usuario)
         {
             ValidarEmailouCnpj(usuario.EmailouCnpj);
             ValidarSenha(usuario.Senha);
+            GetLoginEmpresa();
+            ExisteCnpj(usuario.EmailouCnpj);
 
-            return "Sucesso";
         }
         public void ValidarEmailouCnpj(string emailCnpj)
         {
@@ -61,6 +77,37 @@ namespace Login.Regras
             {
                 throw;
             }
+
+        }
+
+        public List<LoginUsuario> GetLoginEmpresa()
+        {
+            try
+            {
+                List<LoginUsuario> list = new List<LoginUsuario>();
+                dao.Abrir();
+                list = repositorio.ObterLoginEmpresa();
+                dao.Fechar();
+                return list;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public int ExisteCnpj(string cnpj)
+        {
+            int retorno = 0;
+            dao.Abrir();
+            retorno = repositorio.VerificarCnpj(cnpj);
+            if (retorno <= 0)
+            {
+                throw new ExceptionLogin("Digite um Cnpj Válido");
+            }
+            dao.Fechar();
+
+            return retorno;
 
         }
     }
