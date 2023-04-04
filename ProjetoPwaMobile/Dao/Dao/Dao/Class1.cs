@@ -8,11 +8,11 @@ using CadastroEmpresa.Classes;
 using Cadastro.Classes;
 using MySqlConnector;
 
-namespace BibliotecaFrancyelleFamilia.Base
+namespace Dao.Base
 {
     internal class Dao
     {
-        public MySqlConnection conexao { get; set; } = new MySqlConnection(@"datasource=localhost;username=root;password=HdtJfe5oxq4XDP7AYpVY;database=railway;");
+        public MySqlConnection conexao { get; set; } = new MySqlConnection(@"data source=sql10.freemysqlhosting.net;username=sql10610547;password=YPrcBDSM73;database=sql10610547");
 
         public Dao()
         {
@@ -77,7 +77,7 @@ namespace BibliotecaFrancyelleFamilia.Base
             MySqlCommand command = null;
             try
             {
-                
+
                 command = new MySqlCommand(sql, conexao);
 
                 return command.ExecuteReader();
@@ -92,35 +92,38 @@ namespace BibliotecaFrancyelleFamilia.Base
             }
         }
 
-        // inserir valores no banco
-        //internal void InsertDataBase()
-        //{
-        //    try
-        //    {
-        //        SqlCommand command;
-        //        SqlDataAdapter adapter = new SqlDataAdapter();
-        //        String sql = "";
+        //inserir valores no banco
+        internal void InsertDataBase(Cliente cliente)
+        {
+            try
+            {
+                MySqlCommand command;
+                MySqlDataAdapter adapter = new MySqlDataAdapter();
+                String sql = "";
 
-        //        sql = "INSERT INTO FrancyelleFamilia (Nome_Familiar, Data_Nascimento, Id_Genero, Id_Parentesco)" +
-        //              "VALUES" +
-        //              "('" + familia.NomeFamiliar + "'" + "," +
-        //              "'" + familia.DataNascimento + "'" + "," +
-        //              "'" + familia.Genero.IdGenero + "'" + "," +
-        //              "'" + familia.Parentesco.IdParentesco + "')";
+                sql = "INSERT INTO cliente (Cpf, Nome, Sobrenome, Email, Senha, Endereco_id_Endereco)" +
+                      "VALUES" +
+                      "('" + cliente.Cpf + "'" + "," +
+                      "'" + cliente.Nome + "'" + "," +
+                      "'" + cliente.Sobrenome + "'" + "," +
+                      "'" + cliente.Email + "'" + "," +
+                      "'" + cliente.Senha + "'" + "," +
+                      "'" + cliente.Endereco.Id + "')";
 
-        //        // executando o comando insert 
-        //        command = new SqlCommand(sql, conexao);
+                // executando o comando insert 
+                command = new MySqlCommand(sql, conexao);
 
-        //        adapter.InsertCommand = new SqlCommand(sql, conexao);
-        //        adapter.InsertCommand.ExecuteNonQuery();
+                adapter.InsertCommand = new MySqlCommand(sql, conexao);
+                adapter.InsertCommand.ExecuteNonQuery();
 
-        //        command.Dispose(); //fechar command
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
+                command.Dispose(); //fechar command
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
 
         ////deletando um dado 
         //internal void DeleteDataBase(String sql)

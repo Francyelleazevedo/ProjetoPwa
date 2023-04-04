@@ -15,9 +15,12 @@ namespace TesteCadastro
             ManutencaoCadastro manu = new ManutencaoCadastro();
             Cliente cliente = new Cliente();
 
-            cliente.Cpf = 00000000000;
+            cliente.Cpf = 09987769080;
             cliente.Nome = "Francyelle";
             cliente.Sobrenome = "Azevedo";
+            cliente.Email = "testeback@teste.com";
+            cliente.Senha = "12345678";
+            cliente.Endereco.Id = 4;
             cliente.Endereco.Cidade = "recife";
             cliente.Endereco.Logradouro = "Rua Severino Pessoa";
             cliente.Endereco.Cep = 50610400;

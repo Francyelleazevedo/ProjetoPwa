@@ -16,3 +16,19 @@ C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\o
 C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.CoreCompileInputs.cache
 C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.dll
 C:\Users\francyelle\Source\Repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.pdb
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\Cadastro.dll.config
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\MySqlConnector.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Buffers.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Memory.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\MySqlConnector.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Buffers.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Memory.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.CopyComplete

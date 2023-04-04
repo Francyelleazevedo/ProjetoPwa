@@ -6,12 +6,29 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using Cadastro.Exceptions;
+using Cadastro.Repositorio;
+using Cadastro.Base;
 
 namespace Cadastro.Regras
 {
     public class ManutencaoCadastro
     {
-        public string IniciarCadastroCliente(Cliente cliente)
+        Dao dao = null;
+        RepositorioCadastro repositorio = null;
+
+        public ManutencaoCadastro()
+        {
+            try
+            {
+                dao = new Dao();
+                repositorio = new RepositorioCadastro(dao);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        public void IniciarCadastroCliente(Cliente cliente)
         {
             try
             {
@@ -20,8 +37,8 @@ namespace Cadastro.Regras
                 ValidarEmail(cliente.Email);
                 ValidarSenha(cliente.Senha);
 
-
-                return "Sucesso";
+                //InserirDados(cliente);
+                ObterClientes();
 
             }
             catch (Exception)
@@ -185,6 +202,39 @@ namespace Cadastro.Regras
                 {
                     throw new ExceptionCadastro("A senha deve ter no máximo 20 dígitos, , incluindo letras e números!");
                 }
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void InserirDados(Cliente cliente)
+        {
+            try
+            {
+                dao.Abrir();
+                repositorio.InsertDataBase(cliente); //inserindo os dados no banco
+                dao.Fechar();
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public List<Cliente> ObterClientes()
+        {
+            try
+            {
+                List<Cliente> clientes = new List<Cliente>();
+                dao.Abrir();
+                clientes = repositorio.ObterClientes(); //inserindo os dados no banco
+                dao.Fechar();
+
+                return clientes;
 
             }
             catch (Exception)
