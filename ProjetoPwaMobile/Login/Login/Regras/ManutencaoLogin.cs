@@ -67,6 +67,19 @@ namespace Login.Regras
 
         }
 
+        public ManutencaoLogin()
+        {
+            try
+            {
+                dao = new Dao();
+                repositorio = new RepositorioLogin(dao);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         public List<LoginUsuario> GetLogin()
         {
             try

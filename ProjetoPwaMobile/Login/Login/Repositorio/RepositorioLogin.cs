@@ -13,7 +13,10 @@ namespace Login.Repositorio
     {
         Dao dao = null;
 
-
+        public RepositorioLogin(Dao dao)
+        {
+            this.dao = dao;
+        }
         internal List<LoginUsuario> ObterLoginEmpresa()
         {
             IDataReader dr = null;
@@ -21,7 +24,7 @@ namespace Login.Repositorio
             String sql = "SELECT CNPJ, SENHA FROM EMPRESA";
             try
             {
-                dr = dao.PegarEspecifico(sql);
+                dr = dao.GetDataReader(sql);
                 while (dr.Read())
                 {
                     lista.Add(CarregarObjeto(dr));

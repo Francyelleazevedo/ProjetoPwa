@@ -12,7 +12,7 @@ namespace Login
     internal class Dao
     {
         RepositorioLogin repositorio = null;
-        public MySqlConnection conexao { get; set; } = new MySqlConnection(@"datasource=localhost;username=root;password=HdtJfe5oxq4XDP7AYpVY;database=railway;");
+        public MySqlConnection conexao { get; set; } = new MySqlConnection(@"datasource=containers-us-west-165.railway.app;username=root;password=HdtJfe5oxq4XDP7AYpVY;database=railway;");
         public Dao()
         {
         }
@@ -44,6 +44,27 @@ namespace Login
             catch (Exception)
             {
                 throw;
+            }
+        }
+
+        internal MySqlDataReader GetDataReader(String sql) //retorna leitura de banco
+        {
+            
+
+            MySqlCommand command = null;
+            try
+            {
+                command = new MySqlCommand(sql, conexao);
+
+                return command.ExecuteReader();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                command.Dispose();
             }
         }
 
