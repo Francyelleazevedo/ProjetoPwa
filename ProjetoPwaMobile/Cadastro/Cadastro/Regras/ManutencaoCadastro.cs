@@ -37,8 +37,11 @@ namespace Cadastro.Regras
                 ValidarEmail(cliente.Email);
                 ValidarSenha(cliente.Senha);
 
-                //InserirDados(cliente);
-                ObterClientes();
+                //InserirDadosCliente(cliente);
+                //ObterClientes();
+               
+                InserirDadosEnderecoCliente(cliente);
+                ObterEnderecosClientes();
 
             }
             catch (Exception)
@@ -210,12 +213,27 @@ namespace Cadastro.Regras
             }
         }
 
-        public void InserirDados(Cliente cliente)
+        public void InserirDadosCliente(Cliente cliente)
         {
             try
             {
                 dao.Abrir();
                 repositorio.InsertDataBase(cliente); //inserindo os dados no banco
+                dao.Fechar();
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void InserirDadosEnderecoCliente(Cliente cliente)
+        {
+            try
+            {
+                dao.Abrir();
+                repositorio.InsertEndereco(cliente); //inserindo os dados no banco
                 dao.Fechar();
 
             }
@@ -235,6 +253,24 @@ namespace Cadastro.Regras
                 dao.Fechar();
 
                 return clientes;
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public List<Endereco> ObterEnderecosClientes()
+        {
+            try
+            {
+                List<Endereco> enderecos = new List<Endereco>();
+                dao.Abrir();
+                enderecos = repositorio.ObterEnderecos(); //inserindo os dados no banco
+                dao.Fechar();
+
+                return enderecos;
 
             }
             catch (Exception)

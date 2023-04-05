@@ -46,7 +46,7 @@ namespace Cadastro.Base
             }
         }
 
-        //retorna a leitura do meu sql
+        //retorna a leitura DAS TABELAS DO BANCO
         internal MySqlDataReader GetDataReader(string sql) //retorna leitura de banco
         {
 

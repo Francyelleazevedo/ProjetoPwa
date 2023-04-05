@@ -1,6 +1,7 @@
 ﻿using Cadastro.Base;
 using Cadastro.Classes;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -22,14 +23,36 @@ namespace Cadastro.Repositorio
         {
             try
             {
-                String sql = "INSERT INTO Cliente (Cpf, Nome, Sobrenome, Email, Senha, Endereco_id_Endereco)" +
+                String sql = "INSERT INTO Cliente (Cpf, Nome, Sobrenome, Email, Senha)" +
                       "VALUES" +
                       "('" + cliente.Cpf + "'" + "," +
                       "'" + cliente.Nome + "'" + "," +
                       "'" + cliente.Sobrenome + "'" + "," +
                       "'" + cliente.Email + "'" + "," +
-                      "'" + cliente.Senha + "'" + "," +
-                      "'" + cliente.Endereco.Id + "')";
+                      "'" + cliente.Senha + "')";
+                
+                dao.Insert(sql);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void InsertEndereco(Cliente cliente)
+        {
+            try
+            {
+                String sql = "INSERT INTO Endereco (Cidade, Cep, Bairro, Logradouro, Numero, Complemento, Cliente_Cpf, Empresa_Cnpj)" +
+                      "VALUES" +
+                      "('" + cliente.Endereco.Cidade + "'" + "," +
+                      "'" + cliente.Endereco.Cep + "'" + "," +
+                      "'" + cliente.Endereco.Bairro + "'" + "," +
+                      "'" + cliente.Endereco.Logradouro + "'" + "," +
+                      "'" + cliente.Endereco.Numero + "'" + "," +
+                      "'" + cliente.Endereco.Complemento + "'" + "," +
+                      "'" + cliente.Cpf + "'" + "," +
+                      "null" + ")";
 
                 dao.Insert(sql);
             }
@@ -39,6 +62,7 @@ namespace Cadastro.Repositorio
             }
         }
 
+        #region Obter Tabelas
         internal List<Cliente> ObterClientes()
         {
             IDataReader dr = null;
@@ -67,6 +91,36 @@ namespace Cadastro.Repositorio
             }
         }
 
+        internal List<Endereco> ObterEnderecos()
+        {
+            IDataReader dr = null;
+            List<Endereco> listaEndereco = new List<Endereco>();
+            String sql = "SELECT * FROM Endereco";
+            try
+            {
+                dr = dao.GetDataReader(sql);
+                while (dr.Read())
+                {
+                    listaEndereco.Add(CarregarObjetoEndereco(dr));
+                }
+                return listaEndereco;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                if (dr != null)
+                {
+                    dr.Close();
+                    dr.Dispose();
+                }
+            }
+        }
+
+        #endregion
+
         #region Carregar Objetos
         public Cliente CarregarObjetoCliente(IDataReader dr)
         {
@@ -77,12 +131,19 @@ namespace Cadastro.Repositorio
                 Sobrenome = Convert.ToString(dr["SOBRENOME"]),
                 Email = Convert.ToString(dr["EMAIL"]),
                 Senha = Convert.ToString(dr["SENHA"]),
+            };
+        }
 
-               Endereco = new Endereco()
-               {
-                   Id = int.Parse(dr["ENDERECO_ID_ENDERECO"].ToString().Trim()),
-               }
-
+        public Endereco CarregarObjetoEndereco(IDataReader dr)
+        {
+            return new Endereco()
+            {
+                Logradouro = Convert.ToString(dr["LOGRADOURO"]),
+                Cep = int.Parse(dr["CEP"].ToString().Trim()),
+                Cidade = Convert.ToString(dr["CIDADE"]),
+                Bairro = Convert.ToString(dr["BAIRRO"]),
+                Numero = int.Parse(dr["NUMERO"].ToString().Trim()),
+                Complemento = Convert.ToString(dr["COMPLEMENTO"])
             };
         }
         #endregion

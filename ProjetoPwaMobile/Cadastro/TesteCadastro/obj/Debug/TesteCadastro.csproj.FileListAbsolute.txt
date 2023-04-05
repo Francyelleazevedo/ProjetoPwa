@@ -36,3 +36,19 @@ C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaM
 C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.csproj.CopyComplete
 C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.exe
 C:\Users\Francyelle Azevedo\source\repos\ProjetoPwaMobile\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.pdb
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\MySqlConnector.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Memory.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Buffers.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\Cadastro.dll.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\MySqlConnector.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Memory.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Buffers.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\TesteCadastro\obj\Debug\TesteCadastro.exe.config
