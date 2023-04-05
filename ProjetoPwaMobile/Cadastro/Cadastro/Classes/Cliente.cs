@@ -8,7 +8,7 @@ namespace Cadastro.Classes
 {
     public class Cliente
     {
-        public int Cpf { get; set; }
+        public long Cpf { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
         public string Senha { get; set; }
