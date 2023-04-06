@@ -14,15 +14,24 @@ namespace TesteCadastroEmpresa
         {
             ManutencaoCadastroEmpresa manu = new ManutencaoCadastroEmpresa();
             Empresa empresa = new Empresa();
-            empresa.Nome = "1234";
-            empresa.Cnpj = 0657678098089;
+
+            empresa.Nome = "Testeback Empresa";
+            empresa.Cnpj = "34565478965432";
             empresa.CapacidadeTotal = 120;
             empresa.HorarioFuncionamento = "8:00 às 17:00";
             empresa.Telefone = 81987590879;
+            empresa.Senha = "12345678";
             empresa.DiasFuncionamento = "segunda à sexta";
             empresa.Endereco.Cidade = "Recife1234";
+            empresa.Endereco.Logradouro = "Rua Avelar";
+            empresa.Endereco.Complemento = "";
+            empresa.Endereco.Bairro = "teste bairro";
+            empresa.Endereco.Cep = 50610450;
+            
 
-            manu.IniciarCadastroCliente(empresa);
+            //manu.InserirCadastroEmpresa(empresa);
+            manu.InserirEnderecoEmpresa(empresa);
+            manu.GetEmpresas();
         }
     }
 }
