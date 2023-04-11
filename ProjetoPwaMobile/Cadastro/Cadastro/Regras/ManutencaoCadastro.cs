@@ -13,6 +13,7 @@ namespace Cadastro.Regras
 {
     public class ManutencaoCadastro
     {
+        #region Estancias
         Dao dao = null;
         RepositorioCadastro repositorio = null;
 
@@ -28,6 +29,7 @@ namespace Cadastro.Regras
                 throw;
             }
         }
+        #endregion
         public void IniciarCadastroCliente(Cliente cliente)
         {
             try
@@ -51,6 +53,7 @@ namespace Cadastro.Regras
 
         }
 
+        #region Validações
         public void ValidacaoDadosPessoais(Cliente cliente)
         {
             try
@@ -212,14 +215,15 @@ namespace Cadastro.Regras
                 throw;
             }
         }
+        #endregion
 
+        #region Inserts
         public void InserirDadosCliente(Cliente cliente)
         {
             long existeCpf = 0;
             try
             {
                 ValidacaoDadosPessoais(cliente);
-                ValidacaoEndereco(cliente.Endereco);
                 ValidarEmail(cliente.Email);
                 ValidarSenha(cliente.Senha);
 
@@ -242,6 +246,25 @@ namespace Cadastro.Regras
             }
         }
 
+        public void InserirDadosEnderecoCliente(Cliente cliente)
+        {
+            try
+            {
+                ValidacaoEndereco(cliente.Endereco);
+
+                dao.Abrir();
+                repositorio.InsertEndereco(cliente); //inserindo os dados no banco
+                dao.Fechar();
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        #endregion
+
+        #region Verirficar se já existe
         public long ExisteCpf(string cpf)
         {
             long existeCnpj = 0;
@@ -257,22 +280,9 @@ namespace Cadastro.Regras
                 throw;
             }
         }
+        #endregion
 
-        public void InserirDadosEnderecoCliente(Cliente cliente)
-        {
-            try
-            {
-                dao.Abrir();
-                repositorio.InsertEndereco(cliente); //inserindo os dados no banco
-                dao.Fechar();
-
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-
+        #region Obter
         public List<Cliente> ObterClientes()
         {
             try
@@ -308,5 +318,6 @@ namespace Cadastro.Regras
                 throw;
             }
         }
+        #endregion
     }
 }
