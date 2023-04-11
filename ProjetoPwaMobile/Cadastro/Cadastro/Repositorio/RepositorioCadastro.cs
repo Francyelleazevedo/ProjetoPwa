@@ -19,6 +19,7 @@ namespace Cadastro.Repositorio
             this.dao = dao;
         }
 
+        #region Inserts
         public void InsertDataBase(Cliente cliente)
         {
             try
@@ -61,6 +62,7 @@ namespace Cadastro.Repositorio
                 throw;
             }
         }
+        #endregion
 
         #region Obter Tabelas
         internal List<Cliente> ObterClientes()
@@ -104,6 +106,36 @@ namespace Cadastro.Repositorio
                     listaEndereco.Add(CarregarObjetoEndereco(dr));
                 }
                 return listaEndereco;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                if (dr != null)
+                {
+                    dr.Close();
+                    dr.Dispose();
+                }
+            }
+        }
+
+        internal long VerificarCpf(string cpf)
+        {
+            IDataReader dr = null;
+            Cliente cliente = new Cliente();
+            long retorno = 0;
+            try
+            {
+                string sql = string.Format("SELECT Cpf FROM Cliente WHERE Cpf = " + cpf);
+
+                dr = dao.GetDataReader(sql);
+                while (dr.Read())
+                {
+                    retorno = long.Parse(dr["CPF"].ToString().Trim());
+                }
+                return retorno;
             }
             catch (Exception)
             {

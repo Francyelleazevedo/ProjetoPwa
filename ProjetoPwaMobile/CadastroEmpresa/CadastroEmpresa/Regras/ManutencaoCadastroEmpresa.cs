@@ -41,11 +41,12 @@ namespace CadastroEmpresa.Regras
                 if (existeCnpj == 0)
                 {
                     InserirEmpresa(empresa);
-                }else
+                }
+                else
                 {
                     throw new ExceptionCadastroEmpresa("Empresa já cadastrada!");
                 }
-               
+
             }
             catch (Exception)
             {
@@ -58,7 +59,7 @@ namespace CadastroEmpresa.Regras
         {
             try
             {
-                
+
                 ValidacaoEndereco(empresa.Endereco);
 
                 InserirEndereco(empresa);
@@ -194,7 +195,7 @@ namespace CadastroEmpresa.Regras
                 {
                     throw new ExceptionCadastroEmpresa("Campo número não preenchido!");
                 }
-                else if(endereco.Numero == 0)
+                else if (endereco.Numero == 0)
                 {
                     throw new ExceptionCadastroEmpresa("Campo número não preenchido!");
                 }
@@ -285,7 +286,8 @@ namespace CadastroEmpresa.Regras
             catch (Exception)
             {
                 throw;
-            }        }
+            }
+        }
 
         public string FormatarData(string data)
         {
@@ -299,7 +301,7 @@ namespace CadastroEmpresa.Regras
                 string dataFormatada = dia + mes + ano;
                 return dataFormatada;
             }
-            catch (Exception) 
+            catch (Exception)
             {
                 throw;
             }

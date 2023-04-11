@@ -37,7 +37,7 @@ namespace Cadastro.Regras
                 ValidarEmail(cliente.Email);
                 ValidarSenha(cliente.Senha);
 
-                //InserirDadosCliente(cliente);
+                InserirDadosCliente(cliente);
                 //ObterClientes();
                
                 InserirDadosEnderecoCliente(cliente);
@@ -215,12 +215,42 @@ namespace Cadastro.Regras
 
         public void InserirDadosCliente(Cliente cliente)
         {
+            long existeCpf = 0;
+            try
+            {
+                ValidacaoDadosPessoais(cliente);
+                ValidacaoEndereco(cliente.Endereco);
+                ValidarEmail(cliente.Email);
+                ValidarSenha(cliente.Senha);
+
+                existeCpf = ExisteCpf(Convert.ToString(cliente.Cpf));
+
+                if(existeCpf == 0)
+                {
+                    dao.Abrir();
+                    repositorio.InsertDataBase(cliente); //inserindo os dados no banco
+                    dao.Fechar();
+                }else
+                {
+                    throw new ExceptionCadastro("Cliente já cadastrado!");
+                }
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public long ExisteCpf(string cpf)
+        {
+            long existeCnpj = 0;
             try
             {
                 dao.Abrir();
-                repositorio.InsertDataBase(cliente); //inserindo os dados no banco
+                existeCnpj = repositorio.VerificarCpf(cpf);
                 dao.Fechar();
-
+                return existeCnpj;
             }
             catch (Exception)
             {

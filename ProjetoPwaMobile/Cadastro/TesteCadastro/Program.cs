@@ -29,7 +29,8 @@ namespace TesteCadastro
             cliente.Endereco.Numero = 1;
 
 
-            manu.IniciarCadastroCliente(cliente);
+            manu.InserirDadosCliente(cliente);
+            
         }
     }
 }
