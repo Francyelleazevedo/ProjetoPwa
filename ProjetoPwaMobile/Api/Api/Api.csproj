@@ -15,6 +15,9 @@
     <Reference Include="Cadastro">
       <HintPath>..\..\Bin\Cadastro.dll</HintPath>
     </Reference>
+    <Reference Include="CadastroEmpresa">
+      <HintPath>..\..\Bin\CadastroEmpresa.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

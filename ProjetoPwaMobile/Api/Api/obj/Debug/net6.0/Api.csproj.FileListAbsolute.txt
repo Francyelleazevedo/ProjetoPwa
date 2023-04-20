@@ -39,3 +39,4 @@ C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Api\Api\obj\Debug\n
 C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Api\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Api\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Api\Api\obj\Debug\net6.0\ref\Api.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Api\Api\bin\Debug\net6.0\CadastroEmpresa.dll

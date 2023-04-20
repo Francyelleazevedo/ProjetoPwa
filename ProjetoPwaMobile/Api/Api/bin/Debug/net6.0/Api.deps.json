@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.AspNet.WebApi.Core": "5.2.9",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "Cadastro": "1.0.0.0"
+          "Cadastro": "1.0.0.0",
+          "CadastroEmpresa": "1.0.0.0"
         },
         "runtime": {
           "Api.dll": {}
@@ -927,6 +928,14 @@
           }
         }
       },
+      "CadastroEmpresa/1.0.0.0": {
+        "runtime": {
+          "CadastroEmpresa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MySqlConnector/2.0.0.0": {
         "runtime": {
           "MySqlConnector.dll": {
@@ -1595,6 +1604,11 @@
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
     "Cadastro/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CadastroEmpresa/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

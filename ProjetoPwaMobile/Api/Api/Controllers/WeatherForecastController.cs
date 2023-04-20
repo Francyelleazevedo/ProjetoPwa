@@ -1,5 +1,7 @@
 using Cadastro.Classes;
 using Cadastro.Regras;
+using CadastroEmpresa.Classes;
+using CadastroEmpresa.Regras;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
@@ -31,7 +33,7 @@ namespace Api.Controllers
             })
             .ToArray();
         }
-
+        #region Cliente
         [AcceptVerbs("GET"), Route("api/obter/cadastro/cliente")]
         [HttpGet]
         public List<Cliente> ListarClientes()
@@ -49,6 +51,19 @@ namespace Api.Controllers
 
             manutencao.InserirDadosCliente(cliente);
         }
+        #endregion
+
+
+        #region Empresa
+        [AcceptVerbs("POST"), Route("api/inserir/dados/empresa")]
+        [HttpGet]
+        public void InserirDadosEmpresa(Empresa empresa)
+        {
+            ManutencaoCadastroEmpresa manu = new ManutencaoCadastroEmpresa();
+
+            manu.InserirCadastroEmpresa(empresa);
+        }
+        #endregion
 
     }
 }
