@@ -48,3 +48,6 @@ C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\b
 C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.CopyComplete
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Bin\Cadastro.dll.config
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Bin\Cadastro.dll
+C:\Users\francyelle\source\repos\ProjetoPwa\ProjetoPwaMobile\Bin\Cadastro.pdb

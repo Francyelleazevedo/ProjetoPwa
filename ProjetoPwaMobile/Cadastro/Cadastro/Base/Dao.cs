@@ -11,7 +11,7 @@ namespace Cadastro.Base
 {
     internal class Dao
     {
-        public MySqlConnection conexao { get; set; } = new MySqlConnection(@"data source=sql10.freemysqlhosting.net;username=sql10610547;password=YPrcBDSM73;database=sql10610547");
+        public MySqlConnection conexao { get; set; } = new MySqlConnection(@"data source=db4free.net;username=waitless;password=waitless14526;database=waitless");
         public Dao()
         {
         }
